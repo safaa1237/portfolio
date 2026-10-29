@@ -1,0 +1,22 @@
+.site-header { border-bottom: 1px solid #dce5e4; }
+.header-inner { max-width: 1440px; margin: auto; min-height: 90px; padding: 0 7%; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand { font-family: Georgia, serif; font-size: 23px; white-space: nowrap; letter-spacing: -.04em; }
+.brand span { color: var(--blue); }
+.navigation { display: flex; align-items: center; gap: 32px; font-size: 13px; }
+.nav-home { color: #58727d; }
+.nav-contact { font-weight: 600; }
+.nav-contact span { padding-left: 3px; }
+.language-switch { display: flex; gap: 8px; align-items: center; color: #9aa9ac; font-size: 11px; letter-spacing: .06em; }
+.language-switch a[aria-current="page"] { color: var(--ink); font-weight: 700; }
+@media (max-width: 700px) { .header-inner { min-height: 76px; padding: 0 6%; } }
+@media (max-width: 700px) { .navigation { gap: 16px; } }
+@media (max-width: 700px) { .nav-home { display: none; } }
+@media (max-width: 700px) { .brand { font-size: 20px; } }
+@media (max-width: 700px) { .nav-contact { font-size: 12px; } }
+@media (max-width: 380px) { .nav-contact { display: none; } }
+.section-links { display: flex; align-items: center; gap: 26px; color: #58727d; }
+.section-links a:hover { color: #78a7b9; }
+.nav-contact:hover { color: #78a7b9; }
+@media (max-width: 1000px) { .section-links { gap: 15px; } }
+@media (max-width: 1000px) { .navigation { gap: 18px; } }
+@media (max-width: 800px) { .section-links { display: none; } }

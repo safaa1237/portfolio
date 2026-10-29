@@ -1,0 +1,7 @@
+.section { background: #faf6ed; padding: 64px 8%; }
+.panel { position: relative; max-width: 1200px; margin: 0 auto; padding: 44px 50px; background: #294b5e; color: #faf6ed; border-radius: 10px; overflow: hidden; }
+.prompt { color: #d0e5e9; font: 13px/1.5 monospace; letter-spacing: .02em; }
+.prompt span { color: #b4dbe4; font-weight: bold; padding-right: 8px; }
+.quote { max-width: 850px; margin: 25px 0 0; font: italic normal clamp(25px, 3vw, 40px)/1.35 Georgia, serif; letter-spacing: -.02em; }
+.sparkle { position: absolute; right: 50px; top: 43px; color: #b9dce4; font-size: 23px; }
+@media (max-width: 700px) { .section { padding: 45px 7%; } .panel { padding: 30px 26px; } .sparkle { right: 26px; top: 29px; } }

@@ -1,0 +1,5 @@
+.tag-list { list-style: none; padding: 0; margin: 20px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.tag-list li { padding: 7px 10px; border-radius: 5px; background: #eaf3f4; color: #496b78; font-size: 11px; line-height: 1.2; }
+.skill-tags { margin-top: 14px; gap: 6px; }
+.skill-tags li { display: inline-flex; align-items: center; gap: 6px; background: #faf6ed; color: #294e5d; font-size: 12px; padding: 7px 9px; }
+.skill-tags svg { flex: none; opacity: .8; }

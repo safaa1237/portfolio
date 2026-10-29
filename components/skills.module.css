@@ -1,0 +1,5 @@
+.skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.skill-card { background: #d9ebef; border-radius: 8px; padding: 22px; }
+.skill-card:nth-child(2), .skill-card:nth-child(3) { background: #e5edf0; }
+.skill-card h3 { margin: 0; color: #243f4c; font-size: 16px; line-height: 1.35; }
+@media (max-width: 700px) { .skills-grid { grid-template-columns: 1fr; } }

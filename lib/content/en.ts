@@ -1,20 +1,22 @@
 export const en = {
   navLabel: "Main navigation", home: "Home", contact: "Get in touch", language: "Language",
   nav: { approach: "Approach", skills: "Skills", experience: "Experience", work: "Work" },
-  eyebrow: "Software engineer · AI-minded builder", greeting: "Hi, I’m Safaa.", headline: "Let’s make space", headlineEnd: "for better work.",
-  intro: "I build thoughtful software and AI-assisted workflows that take care of the repetitive stuff, so engineers can focus on solving meaningful problems.",
-  work: "Explore my work", philosophy: "A little philosophy", cardLine1: "Less boilerplate.", cardLine2: "More building.", cardFooter: "AI + engineering + human curiosity",
+  eyebrow: "Software engineer · System architect · AI-minded builder", greeting: "Hi, I’m Safaa.", headline: "Let’s make space", headlineEnd: "for better work.",
+  intro: "I design thoughtful systems and AI-assisted workflows that make space for engineers to focus on meaningful problems. From scalable architecture to LLM-powered tools, I bring the pieces together.",
+  work: "Explore my work", philosophy: "A little philosophy", cardLine1: "Less boilerplate.", cardLine2: "More building.", cardFooter: "Architecture + AI + human curiosity",
+  quote: { label: "safaa@workspace ~", text: "A software system is for an engineer what a painting is for an artist." },
   approach: {
     label: "01 / My approach", title: "Better tools, better workdays.", description: "Thoughtful automation gives teams more time to design, collaborate and solve the problems that matter.",
     cards: [
       { icon: "✳", title: "AI in the workflow", text: "Practical agentic workflows, MCP integrations and project knowledge where teams need it." },
-      { icon: "⌘", title: "Engineering foundations", text: "Scalable architecture, cloud infrastructure and reliable delivery." },
+      { icon: "⌘", title: "Engineering foundations", text: "Designing scalable systems, clear interfaces and reliable cloud infrastructure that can evolve alongside AI." },
       { icon: "♡", title: "People first", text: "Better developer experiences and more room for thoughtful decisions." },
     ],
   },
   skills: {
-    label: "02 / What I bring", title: "Skills & tools", description: "A toolbox for building useful products and helping teams work better.",
+    label: "02 / What I bring", title: "Skills & tools", description: "A toolbox for designing connected systems, building useful products and helping teams work better.",
     groups: [
+      { title: "System architecture", items: ["Distributed systems", "Microservices", "System integration", "Cloud architecture"] },
       { title: "AI engineering", items: ["LLM APIs", "MCP", "RAG", "Agentic workflows", "Tool calling"] },
       { title: "Full-stack development", items: ["TypeScript", "React", "Next.js", "Java", "Python", "Spring Boot", "NestJS"] },
       { title: "Cloud & delivery", items: ["AWS", "Azure", "Kubernetes", "Docker", "Terraform", "CI/CD"] },

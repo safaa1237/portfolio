@@ -1,0 +1,41 @@
+.hero { max-width: 1440px; min-height: min(720px, calc(100vh - 90px)); margin: auto; padding: 95px 8% 115px; display: grid; grid-template-columns: 1.2fr .8fr; gap: 7%; align-items: center; }
+.eyebrow-dot { display: inline-block; width: 7px; height: 7px; margin-right: 10px; border-radius: 50%; background: #91bbca; vertical-align: 1px; }
+.hero h1 { margin: 25px 0; font: normal clamp(44px, 5.5vw, 76px)/1.08 Georgia, serif; letter-spacing: -.045em; }
+.hero h1 em { color: #78a7b9; font-weight: normal; }
+.hero-description { max-width: 530px; color: var(--muted); font-size: 16px; line-height: 1.8; }
+.hero-actions { display: flex; gap: 12px; margin-top: 32px; }
+.hero-art { position: relative; min-height: 410px; border-radius: 50% 50% 12px 12px; background: #d3e7ed; display: flex; align-items: center; justify-content: center; }
+.philosophy-card { position: relative; width: 76%; padding: 35px 30px; background: #fffdf8; border: 1px solid #bfd4da; border-radius: 10px; box-shadow: 9px 9px 0 #abcbd6; }
+.card-star { position: absolute; right: 24px; top: 20px; color: #8fb8c7; font-size: 20px; }
+.card-heading { margin: 35px 0 24px; font: normal clamp(25px, 2.6vw, 36px)/1.25 Georgia, serif; letter-spacing: -.03em; }
+.card-heading span { color: #8db7c6; }
+.card-caption { margin: 0; color: #6d838b; font-size: 12px; line-height: 1.6; }
+.art-sparkle { position: absolute; color: #719dad; font-size: 25px; }
+.art-sparkle-top { top: 13%; right: 14%; }
+.art-sparkle-bottom { bottom: 12%; left: 12%; }
+@media (max-width: 700px) { .hero { min-height: auto; grid-template-columns: 1fr; gap: 52px; padding: 70px 7% 80px; } }
+@media (max-width: 700px) { .hero-art { min-height: 310px; } }
+@media (max-width: 700px) { .philosophy-card { max-width: 330px; } }
+@media (max-width: 380px) { .hero h1 { font-size: 40px; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-art {
+    animation: hero-art-enter 800ms cubic-bezier(.22, 1, .36, 1) both;
+  }
+  .art-sparkle, .card-star, .card-heading span {
+    animation: sparkle-enter 500ms cubic-bezier(.22, 1, .36, 1) 650ms both;
+  }
+  .art-sparkle-bottom { animation-delay: 850ms; }
+  .card-heading span { display: inline-block; animation-delay: 1s; }
+  .card-star { animation-delay: 1.15s; }
+}
+
+@keyframes hero-art-enter {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes sparkle-enter {
+  from { opacity: 0; transform: scale(.5) rotate(-20deg); }
+  to { opacity: 1; transform: scale(1) rotate(0); }
+}

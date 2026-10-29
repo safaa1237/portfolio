@@ -1,0 +1,4 @@
+.approach-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.approach-icon { width: 46px; height: 46px; display: grid; place-items: center; border-radius: 12px; background: #e5f1f3; color: #568a9c; font-size: 24px; margin-bottom: 30px; }
+.approach-card p { margin: 12px 0 0; }
+@media (max-width: 700px) { .approach-grid { grid-template-columns: 1fr; } }

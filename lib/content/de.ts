@@ -3,20 +3,22 @@ import type { Dictionary } from "../i18n";
 export const de: Dictionary = {
   navLabel: "Hauptnavigation", home: "Start", contact: "Kontakt aufnehmen", language: "Sprache",
   nav: { approach: "Ansatz", skills: "Skills", experience: "Erfahrung", work: "Projekte" },
-  eyebrow: "Software Engineer · KI-begeisterte Entwicklerin", greeting: "Hi, ich bin Safaa.", headline: "Mehr Raum schaffen", headlineEnd: "für bessere Arbeit.",
-  intro: "Ich entwickle durchdachte Software und KI-gestützte Workflows, die repetitive Aufgaben übernehmen – damit sich Entwicklerinnen und Entwickler auf sinnvolle Lösungen konzentrieren können.",
-  work: "Meine Arbeit entdecken", philosophy: "Meine Philosophie", cardLine1: "Weniger Routine.", cardLine2: "Mehr gestalten.", cardFooter: "KI + Engineering + menschliche Neugier",
+  eyebrow: "Software Engineer · Systemarchitektin · KI-begeisterte Entwicklerin", greeting: "Hi, ich bin Safaa.", headline: "Mehr Raum schaffen", headlineEnd: "für bessere Arbeit.",
+  intro: "Ich gestalte durchdachte Systeme und KI-gestützte Workflows, die Raum für sinnvolle Lösungen schaffen. Von skalierbarer Architektur bis zu LLM-gestützten Tools verbinde ich die einzelnen Bausteine.",
+  work: "Meine Arbeit entdecken", philosophy: "Meine Philosophie", cardLine1: "Weniger Routine.", cardLine2: "Mehr gestalten.", cardFooter: "Architektur + KI + menschliche Neugier",
+  quote: { label: "safaa@workspace ~", text: "Ein Softwaresystem ist für einen Engineer, was ein Gemälde für einen Künstler ist." },
   approach: {
     label: "01 / Mein Ansatz", title: "Bessere Tools, bessere Arbeitstage.", description: "Durchdachte Automatisierung schafft Teams mehr Zeit für Gestaltung, Zusammenarbeit und wichtige Herausforderungen.",
     cards: [
       { icon: "✳", title: "KI im Arbeitsalltag", text: "Praktische agentische Workflows, MCP-Integrationen und Projektwissen dort, wo Teams es brauchen." },
-      { icon: "⌘", title: "Solide Grundlagen", text: "Skalierbare Architektur, Cloud-Infrastruktur und zuverlässige Auslieferung." },
+      { icon: "⌘", title: "Solide Grundlagen", text: "Skalierbare Systeme, klare Schnittstellen und zuverlässige Cloud-Infrastruktur, die sich gemeinsam mit KI weiterentwickeln können." },
       { icon: "♡", title: "Der Mensch im Mittelpunkt", text: "Eine bessere Developer Experience und mehr Raum für durchdachte Entscheidungen." },
     ],
   },
   skills: {
-    label: "02 / Was ich mitbringe", title: "Skills & Tools", description: "Mein Werkzeugkasten für nützliche Produkte und bessere Zusammenarbeit.",
+    label: "02 / Was ich mitbringe", title: "Skills & Tools", description: "Mein Werkzeugkasten für vernetzte Systeme, nützliche Produkte und bessere Zusammenarbeit.",
     groups: [
+      { title: "Systemarchitektur", items: ["Verteilte Systeme", "Microservices", "Systemintegration", "Cloud-Architektur"] },
       { title: "KI-Engineering", items: ["LLM APIs", "MCP", "RAG", "Agentische Workflows", "Tool Calling"] },
       { title: "Full-Stack-Entwicklung", items: ["TypeScript", "React", "Next.js", "Java", "Python", "Spring Boot", "NestJS"] },
       { title: "Cloud & Delivery", items: ["AWS", "Azure", "Kubernetes", "Docker", "Terraform", "CI/CD"] },

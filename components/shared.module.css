@@ -1,0 +1,10 @@
+.eyebrow { margin: 0; font-size: 11px; font-weight: 700; letter-spacing: .16em; line-height: 1.5; text-transform: uppercase; color: #618291; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 22px; min-height: 50px; padding: 0 21px; border-radius: 6px; font-size: 13px; font-weight: 600; }
+.button-primary { color: #fff; background: #294b5e; transition: background .2s; }
+.button-primary:hover { background: #426b7d; }
+.button-outline { border: 1px solid #a5bfc6; background: transparent; }
+.button-outline:hover { background: #e6f0f1; }
+.card-grid { display: grid; gap: 18px; }
+.content-card { background: #fffdf8; border: 1px solid #dce8e7; border-radius: 12px; padding: 30px; }
+.content-card h3 { margin: 0; font-size: 17px; line-height: 1.35; }
+.content-card p { color: var(--muted); line-height: 1.7; font-size: 14px; }

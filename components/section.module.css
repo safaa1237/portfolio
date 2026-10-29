@@ -1,0 +1,7 @@
+.section { padding: 100px 8%; scroll-margin-top: 24px; }
+.section-blue { background: #e4f0f3; }
+.section-inner { max-width: 1200px; margin: 0 auto; }
+.section-heading { max-width: 670px; margin-bottom: 38px; }
+.section h2 { margin: 14px 0; font: normal clamp(35px, 4vw, 51px)/1.12 Georgia, serif; letter-spacing: -.035em; }
+.section-description { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.8; }
+@media (max-width: 700px) { .section { padding: 70px 7%; } }

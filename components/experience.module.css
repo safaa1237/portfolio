@@ -1,0 +1,12 @@
+.experience-item h3 { margin: 0; font-size: 17px; line-height: 1.35; }
+.experience-list { border-top: 1px solid #c8dfe2; }
+.experience-item { display: grid; grid-template-columns: 1fr 1.65fr auto; gap: 30px; padding: 29px 0; border-bottom: 1px solid #c8dfe2; }
+.experience-title p { margin: 7px 0 0; color: #64808b; font-size: 13px; }
+.experience-detail > p { margin: 0; color: #536e79; font-size: 14px; line-height: 1.7; }
+.experience-detail ul { margin-top: 15px; }
+.experience-detail ul li { background: #f8fcfa; }
+.experience-meta { display: flex; flex-direction: column; gap: 6px; text-align: right; color: #64808b; font-size: 12px; white-space: nowrap; }
+@media (max-width: 800px) { .experience-item { grid-template-columns: 1fr 2fr; } }
+@media (max-width: 800px) { .experience-meta { grid-column: 1 / -1; flex-direction: row; text-align: left; } }
+@media (max-width: 700px) { .experience-item { grid-template-columns: 1fr; gap: 14px; } }
+@media (max-width: 700px) { .experience-meta { grid-column: auto; flex-wrap: wrap; } }
